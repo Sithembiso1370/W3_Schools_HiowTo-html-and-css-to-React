@@ -1,0 +1,50 @@
+
+
+.MenuIcon {
+    background-color: white;
+    position:absolute;
+    top:0;
+    left:0;
+    width:37px;
+    height: 4%;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    border-radius: 35px;
+    transition: 0.4s;
+    z-index: -2;
+}
+
+/* .MenuIcon>div>.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+   */
+
+   /* Rotate first bar */
+.change1  {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+
+  /* Fade out the second bar */
+.change2  {
+    opacity: 0;
+  }
+  
+/* Rotate last bar */
+.change3  {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
